@@ -1,0 +1,179 @@
+/* loginStyles.css */
+
+.header-title {
+  font-weight: bold;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-left: 10px;
+  width: 40px;
+  height: 30px;
+}
+
+.card-title-custom {
+  color: #00008b;
+  font-weight: bold;
+}
+
+.mt-4-custom {
+  margin-top: 1.5rem;
+}
+
+.btn-custom {
+  background-color: #00008b; /* blue background */
+  border-color: #00008b; /* blue border */
+  color: white; /* White text */
+}
+
+/* registerStyles.css */
+
+.card-header-custom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #00008b;
+  font-weight: bold;
+}
+
+.center-button {
+  background-color: #00008b; /* blue background */
+  border-color: #00008b; /* blue border */
+  color: white; /* White text */
+}
+
+/* headerStyles.css */
+
+.logo {
+  height: 30px;
+  margin-right: 10px;
+}
+
+.brand-text {
+  color: #00008b;
+  font-weight: bold;
+}
+
+.nav-link {
+  color: #00008b;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.logout-link {
+  cursor: pointer;
+}
+
+.nav-link.home {
+  color: #00008b; /* Example color: OrangeRed for Home */
+}
+
+.btn.search-button {
+  color: #00008b; /* Example color: OrangeRed for Search button text */
+}
+
+.fixed-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000; /* Ensure it is above other elements */
+  background-color: white; /* or any background color to match your design */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: adds a shadow for better visibility */
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.home-container {
+  padding-top: 0px;
+  /* Adjust this value if additional spacing is needed */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.editButton {
+  color: blue;
+  font-size: 8px; /* smaller font size */
+  padding: 2px 6px; /* smaller padding */
+  border: none; /* remove border */
+  border-radius: 4px; /* rounded corners */
+  cursor: pointer; /* pointer cursor on hover */
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.editButton:hover {
+  color: #45a049;
+  color: white; /* darker green on hover */
+}
+
+/* Add this CSS to your styles.css file */
+
+/* Add padding to the top of the body to prevent content overlap */
+body {
+  padding-top: 60px; /* Adjust based on your header's height */
+}
+
+.todo-item {
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  position: relative;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.todo-item.editing {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border: 2px solid #00008b;
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add any styles you want for editing mode */
+}
+
+/* Add this CSS to your styles.css file */
+
+.bold-text {
+  font-weight: bold;
+}
+
+/* Add this CSS to your styles.css file */
+
+.error-text {
+  color: red;
+  font-size: 0.875em;
+}
+
+.due-date {
+  color: #708090;
+  font-weight: bold;
+}
+
+/* Add this CSS to your styles.css file */
+
+.zoom-out {
+  transform: scale(1); /* Adjust the scale value as needed */
+  transform-origin: top center;
+}
+
+.filter-select {
+  border: 2px solid #708090;
+  border-radius: 8px;
+  transition: box-shadow 0.3s, border-color 0.3s;
+}
